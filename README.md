@@ -17,6 +17,7 @@ Flask micro web framework
 - numpy
 - pandas
 - matplotlib
+- Git & GitHub
 
 ### Tools/IDE 
 - Jupyter notebook (IPython)
@@ -24,8 +25,14 @@ Flask micro web framework
 
 ### How to use it
 1. Fork this repository to have your own copy
-2. Clone your copy on your local system
-3. Install necessary packages
+2. Clone your copy on your local system -> <br>
+``` git clone https://github.com/N-liraj-khanna/Boston-House-Price-Predictor.git ```
+3. Enter into the virtual enviroment -> <br>
+``` conda activate venv/ ```
+4. Install necessary packages -> <br>
+``` conda install --file requirements.txt ```
+5. Run the application -><br>
+```flask run```
 
 
 # 0. Introduction
@@ -72,13 +79,11 @@ The requriements were gathered from the problem and formally defined.
 * client/server system (Web)
 * client: Web browers
 * server: Python/Flask
-* database: sqlite
 * platform: Python/Javascript/HTML5/CSS3
-* Operating system: Windows, Mac, Linux
+* Operating system: Mac, Windows , Linux
 
 ## 2. Gather data, analyze and build models
-We found an online kaggle challange that contained the data we needed to solve the problem.
-Data was downloaded from [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+Data was downloaded from [here](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/)
 We broke everything into the following steps
 We started by loading data and packages we needed for the research.We then
 analyzed the data to understand the relationships between the price and other
@@ -104,10 +109,8 @@ We run multiple tests fixed bugs in the code.
 
 # 3. Results and discussions
 ## Screenshot of the application
-![First screenshot](images/screenshot-01.png)
-![Second screenshot](images/screenshot-02.png)
-![Third screenshot](images/screenshot-04.png)
-![Fourth screenshot](images/screenshot-03.png)
+![First screenshot](images/home.jpg)
+![Second screenshot](images/predicted.jpg)
 
 We were able to build a web application that can predict the price of a house given certain features. The application runs in the browser and talks to a flask server that is taking data and passing it to a machine learning model.
 
@@ -116,14 +119,28 @@ There are real world problems that can be solved with machine learning. Some of 
 
 # 5. Refrences
 
-Pedro Marcelino, *Comprehensive data exploration with Python*, Kaggle,  February 2017. Accessed on: April 19, 2021. [Online]
-Available: [https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python](https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python)
+Understanding of the Dataset: [https://archive.ics.uci.edu/ml/machine-learning-databases/housing/](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/) <br>
+Video Reference: [https://www.youtube.com/watch?v=MJ1vWb1rGwM&list=PLZoTAELRMXVMdvxeSuliQZcRLu3WCYVim](https://www.youtube.com/watch?v=MJ1vWb1rGwM&list=PLZoTAELRMXVMdvxeSuliQZcRLu3WCYVim) <br>
+Channel: [https://www.youtube.com/@krishnaik06](https://www.youtube.com/@krishnaik06)
 
-J. Ade-Ojo, *Predicting House Prices With Machine Learning*, Towards Data Science,  Janurary 8, 2021. Accessed on: April 19, 2021. [Online]
-Available: [https://towardsdatascience.com/predicting-house-prices-with-machine-learning-62d5bcd0d68f](https://towardsdatascience.com/predicting-house-prices-with-machine-learning-62d5bcd0d68f)
+## Author
 
-*House Prices - Advanced Regression Techniques*, Kaggle, Accessed on: April 19, 2021. [Online]
-Available: [https://www.kaggle.com/c/house-prices-advanced-regression-techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 
-*House Prices EDA*, Kaggle, Accessed on: April 19, 2021. [Online]
-Available: [https://www.kaggle.com/dgawlik/house-prices-eda](https://www.kaggle.com/dgawlik/house-prices-eda)
+👤 **N Liraj Khanna**
+
+* Website: https://github.com/N-liraj-khanna
+* Github: [@N-liraj-khanna](https://github.com/N-liraj-khanna)
+* LinkedIn: [@https://www.linkedin.com/in/n-lirajkhanna/](https://www.linkedin.com/in/n-lirajkhanna/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/N-liraj-khanna/Boston-House-Price-Predictor/issues). You can also take a look at the [contributing guide](https://github.com/N-liraj-khanna/Boston-House-Price-Predictor/blob/master/CONTRIBUTING.md).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2021 [N Liraj Khanna](https://github.com/N-liraj-khanna).<br />
+This project is [ISC](https://github.com/N-liraj-khanna/Boston-House-Price-Predictor/blob/master/LICENSE) licensed.
